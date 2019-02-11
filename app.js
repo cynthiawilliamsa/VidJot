@@ -72,9 +72,7 @@ app.get('/', (req, res) => {
 //about route
 app.get('/about', (req, res) => {
     res.render("about");
-})
-
-
+});
 
 //use routes
 app.use('/ideas', ideas);
